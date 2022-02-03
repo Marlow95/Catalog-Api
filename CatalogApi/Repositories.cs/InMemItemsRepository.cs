@@ -42,5 +42,6 @@ namespace Catalog.Repositories
             var index = items.FindIndex(existingItem => existingItem.Id == id);
             items.RemoveAt(index);
         }
+
     }
 }
